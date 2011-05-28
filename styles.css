@@ -1,0 +1,213 @@
+body{
+    background-color: rgb(226,226,226);
+    color : rgb(0,0,0);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:justify;
+}
+
+@font-face {
+    font-family: "HandTest";
+    src: url("fonts/HandTest.ttf");
+}
+
+p{
+    color : rgb(0,0,0);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:justify;
+}
+
+/*fonte do header 1*/
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+/*outras tags para o ahref (log in e registar)*/
+a:link,a:visited{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration:none;
+    color: rgb(0,84,166);
+}
+/*{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration:none;
+    /*color: rgb(0,84,166);
+}*/
+a:hover,a:active{
+    font-family: Arial, Helvetica, sans-serif;
+    /*color: rgb(226,226,226);*/
+    color: rgb(255,255,255);
+    background-color: rgb(0,84,166);
+}
+
+fonteHandTest{
+    font-family: HandTest, Arial, Helvetica, sans-serif;
+    /*font-size: 50px;*/
+}
+fonteHandTestFooter{
+    font-family: HandTest, Arial, Helvetica, sans-serif;
+    /*font-size: 25px;*/
+}
+colorHTblue{
+    color: rgb(0,84,166);
+}
+
+/*caixa do procurar*/
+.search{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    /*border:5px solid gray;*/
+}
+
+/*botão de procurar*/
+.btnproc{
+    background: url(images/search.png) no-repeat 5px center;
+    vertical-align: middle;
+    border: 0px;
+    width: 30px;
+    height: 22px;
+    cursor: pointer;
+    opacity: 0.6;
+}
+.btnproc:hover {
+    opacity: 1;
+}
+
+/*caixa das hiperligações ao fundo da página*/
+.hyper{
+    position: absolute;
+    top: 10px;
+    left: 45%;
+    /*border:5px solid gray;*/
+}
+
+.menu ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu li{
+    display: inline;
+}
+
+/**************************************************************lado esquerdo*/
+/*caixa do lado esquerdo*/
+.leftarea{
+    position: fixed;
+    width: 180px;
+    /*border:5px solid gray;*/
+}
+
+/*caixa do logo*/
+.wikingon{
+    position: relative;
+    top: 15px;
+    left: 10px;
+}
+
+/*caixa de registo*/
+.signlog{
+    position: relative;
+    top: 20px;
+    /*border:5px solid gray;*/
+}
+
+.fbtw{
+    position: relative;
+    top: 20px;
+    /*border:5px solid gray;*/
+}
+
+/**************************************************************meio*/
+/*caixa do texto principal*/
+.txtarea{
+    position: absolute;
+    top: 40px;
+    left: 200px;
+    right: 20px;
+    padding:40px;
+    -moz-border-radius: 15px;/*firefox*/
+    border-radius: 15px;
+    behavior: url(ie-css3.htc);
+    /*border: outset;*/
+    background-color: rgb(235, 235, 235);
+    /*border:5px solid gray;*/
+}
+
+/*caixa do titulo*/
+.txtareaTy{
+    position: relative;
+    /*border:5px solid gray;*/
+}
+
+/*caixa da barra por baixo do titulo*/
+.txtareaBar{
+    position: relative;
+    /*border:5px solid gray;*/
+}
+
+/*caixa do texto*/
+.txtareaTe{
+    position: relative;
+    top: 30px;
+    /*border:5px solid gray;*/
+}
+
+/*caixa para a imagem que aparece antes do texto principal*/
+.txtareaIm{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    float: left;
+    background-color: rgb(226,226,226);
+    /*border:5px solid gray;*/
+}
+
+.txtTextEditor{
+    background-color: rgb(255,255,255);
+    border:1px solid rgb(171,173,179);
+}
+
+.botao{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0px;
+    background: transparent;
+    cursor: pointer;
+}
+
+.btnfacebook{
+    /*background: url(images/facebook.png) no-repeat center;
+    vertical-align: middle;
+    border: 0px solid;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;*/
+    opacity: 0.6;
+}
+.btnfacebook:hover{
+    opacity: 1;
+}
+
+.btntwitter{
+    /*background: url(images/twitter.png) no-repeat center;
+    vertical-align: middle;
+    border: 0px solid;
+    width: 32px;
+    height: 32px;*/
+    cursor: pointer;
+    opacity: 0.6;
+}
+.btntwitter:hover{
+    opacity: 1;
+}
+/**************************************************************meio*/
+/**************************************************************por baixo*/
+.bottomarea{
+    position: fixed;
+    bottom: 5px;
+    font-size: 10px;
+    /*border:5px solid gray;*/
+}
+/**************************************************************por baixo*/
